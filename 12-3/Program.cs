@@ -82,37 +82,37 @@ namespace _12_3
                         N = int.Parse(Console.ReadLine());
                         if (N == 1)
                         {
-                            Console.WriteLine("Lunes");
+                            Console.WriteLine("Domingo");
                         }
                         else if (N == 2)
                         {
-                            Console.WriteLine("Martes");
+                            Console.WriteLine("Lunes");
                         }
                         else if (N == 3)
                         {
-                            Console.WriteLine("Miercoles");
+                            Console.WriteLine("Martes");
                         }
                         else if (N == 4)
                         {
-                            Console.WriteLine("Jueves");
+                            Console.WriteLine("Miercoles");
                         }
                         else if (N == 5)
                         {
-                            Console.WriteLine("Viernes");
+                            Console.WriteLine("Jueves");
                         }
                         else if (N == 6)
                         {
-                            Console.WriteLine("Sabado");
+                            Console.WriteLine("Viernes");
                         }
                         else if (N == 7)
                         {
-                            Console.WriteLine("Domingo");
+                            Console.WriteLine("Sabado");
                         }
                         else
                         {
                             Console.WriteLine("Error: Seleccione un numero valido");
                         }
-                    } while (true);
+                    } while (N == 1 || N == 2 || N == 3 || N == 4 || N == 5 || N == 6 || N == 7);
                     break;
                 case 8:
                     break;
