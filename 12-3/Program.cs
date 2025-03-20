@@ -174,6 +174,24 @@ namespace _12_3
                     } while (N == 1 || N == 2 || N == 3 || N == 4 || N == 5 || N == 6 || N == 7 || N == 8 || N == 9 || N == 10 || N == 11 || N == 12);
                     break;
                 case 9:
+                    string respuesta;
+                    do
+                    {
+                        int resultado;
+                        Console.WriteLine("Ingrese Un Numero");
+                        N = int.Parse(Console.ReadLine());
+                        resultado = N % 2;
+                        if (resultado == 1)
+                        {
+                            Console.WriteLine("Impar");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Par");
+                        }
+                        Console.WriteLine("¿Desea Consultar Otro Numero? S/N");
+                        respuesta = Console.ReadLine();
+                    } while (respuesta == "s" || respuesta == "S");
                     break;
             }
             Console.ReadKey();
